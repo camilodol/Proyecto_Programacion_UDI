@@ -42,6 +42,18 @@ public class Doctorr extends Persona {
         this.estado = estado;
     }
 
+    @Override
+    public String toString() {
+        return "Doctorr{" +
+                "horaEntrada='" + horaEntrada + '\'' +
+                ", horaSalida='" + horaSalida + '\'' +
+                ", estado=" + estado +
+                ", nombre='" + nombre + '\'' +
+                ", identificacion=" + identificacion +
+                ", Celular=" + Celular +
+                '}';
+    }
+
     public void llamadoValoracionInicial(){
 
     }

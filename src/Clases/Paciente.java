@@ -41,6 +41,19 @@ public class Paciente extends Persona {
         return turnoRecepcion;
     }
 
+    @Override
+    public String toString() {
+        return "Paciente{" +
+                "prioridad=" + prioridad +
+                ", estado=" + estado +
+                ", turnoRecepcion=" + turnoRecepcion +
+                ", turnoAtencion=" + turnoAtencion +
+                ", nombre='" + nombre + '\'' +
+                ", identificacion=" + identificacion +
+                ", Celular=" + Celular +
+                '}';
+    }
+
     public void setTurnoRecepcion(Integer turnoRecepcion) {
         this.turnoRecepcion = turnoRecepcion;
     }

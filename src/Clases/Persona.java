@@ -36,6 +36,15 @@ public class Persona {
         return Celular;
     }
 
+    @Override
+    public String toString() {
+        return "Persona{" +
+                "nombre='" + nombre + '\'' +
+                ", identificacion=" + identificacion +
+                ", Celular=" + Celular +
+                '}';
+    }
+
     public void setCelular(Integer celular) {
         Celular = celular;
     }
